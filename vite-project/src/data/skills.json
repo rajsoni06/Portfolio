@@ -1,0 +1,62 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html-5.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/CSS_logo.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/JavaScript-1.png"
+  },
+  {
+    "title": "DevOps",
+    "imageSrc": "skills/DevOps_1.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Express",
+    "imageSrc": "skills/express-js.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws-logo_1.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/Git_icon_1.png"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/MySQL_1.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django-python-logo_1.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/C++ (2).png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java-logo-1.png"
+  }
+]

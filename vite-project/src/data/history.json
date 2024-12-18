@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Programmer Analyst",
+    "organisation": "Cognizant",
+    "startDate": "July, 2024",
+    "endDate": "Present",
+    "experiences": ["Expertise in AWS, Azure, Python, JavaScript, Java, and CI/CD.","Skilled in Docker, Kubernetes, data integration, and AI frameworks, with experience in both SQL and NoSQL databases."],
+    "imageSrc": "history/CTSH.png"
+  },
+  {
+    "role": "Software Developer",
+    "organisation": "Platina Software",
+    "startDate": "May, 2023",
+    "endDate": "Nov, 2023",
+    "experiences": ["Worked on full-stack development and application performance enhancement.", "Worked with teams to build and deploy scalable web apps using React, Node.js, and MongoDB."], 
+    "imageSrc": "history/Platina_Software.png"
+  },
+  {
+    "role": "SDE Intern",
+    "organisation": "PrepBytes",
+    "startDate": "Jan, 2023",
+    "endDate": "Apr, 2023",
+    "experiences": [
+      "Contributed to backend development and API integration projects.",
+      "Gained hands-on experience in software engineering and problem-solving while collaborating effectively within a tech team."
+    ],
+    "imageSrc": "history/prepbytes_logo.png"
+  }
+]

@@ -1,0 +1,121 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #6d87f2 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 16px 22px;
+  max-width: 345px;
+  margin: 0 auto; /* Center the container on mobile screens */
+}
+
+.image {
+  margin-bottom: 26px;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.image:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify; /* Justify text to cover the full width */
+  display: block; /* Use block display for full width */
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 2px 11px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff; /* Ensure text stands out against the gradient */
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: linear-gradient(145deg, #6dd5ed, #2193b0, #6a11cb); /* 3D linear gradient with bluish tones */
+  padding: 5px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), inset 0 -4px 6px rgba(0, 0, 0, 0.1); /* Depth and inner shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.link:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3), inset 0 -6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow for a lifted look */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 830px) {
+  .container {
+    padding: 23px 23px;
+    max-width: 100%; /* Full width on mobile */
+    box-shadow: none; /* Simplify shadow for mobile */
+  }
+
+  .title {
+    font-size: 20px; /* Smaller title on mobile */
+  }
+
+  .description {
+    font-size: 16px; /* Smaller description text */
+  }
+
+  .skills {
+    gap: 6px; /* Reduce gap between skills */
+  }
+
+  .skill {
+    font-size: 14px; /* Smaller skill text */
+    padding: 5px 9px;
+  }
+
+  .links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #ffffff; /* Ensure text stands out against the gradient */
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: linear-gradient(145deg, #6dd5ed, #2193b0, #6a11cb); /* 3D linear gradient with bluish tones */
+    padding: 5px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), inset 0 -4px 6px rgba(0, 0, 0, 0.1); /* Depth and inner shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+}

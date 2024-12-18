@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Ping Connect",
+    "imageSrc": "projects/Social_App.gif",
+    "description": "Ping Connect is a social media app with authentication, user feeds, and profile customization. Built with React, Redux, and Tailwind, it features interactive and responsive design.",
+    "skills": ["JWT", "Redux", "React", "tailwind", "Express", "Node", "MongoDB"],
+    "demo": "https://ping-connect.vercel.app/login",
+    "source": "https://github.com/rajsoni06/Ping_Connect"
+  },
+  {
+    "title": "Nihongo Journey Site",
+    "imageSrc": "projects/Japan_website.gif",
+    "description": "Designed a website on Japan, featuring Japanese language learning and tourist attractions, delivering an immersive user experience for cultural information and exploration.",
+    "skills": ["MongoDB", "React", "Express", "Node", "HTML", "CSS", "JavaScript"],
+    "demo": "https://rajsoni06.github.io/Nihongo_Journey/Nihongo-Journey.html",
+    "source": "https://github.com/rajsoni06/Nihongo_Journey"
+  },
+  {
+    "title": "Responsive UI",
+    "imageSrc": "projects/Travel_Website.gif",
+    "description": "The Travel website inspires exploration with news, destinations, a blog, and contact sections. It celebrates nature's beauty and the joy of vacation trips, tourist adventures, and discovering new places around the world.",
+    "skills": ["HTML", "CSS", "JavaScript","React", "Express", "Node"],
+    "demo": "https://rajsoni06.github.io/Responsive_UI_Design/",
+    "source": "https://github.com/rajsoni06/Responsive_UI_Design"
+  },
+  {
+    "title": "Universe Cosmos",
+    "imageSrc": "projects/Universe_website.gif",
+    "description": "The Universe Cosmos website explores space with sections on news, a simulator, articles, and contact. It emphasizes cosmic exploration and humanity's journey through the universe.",
+    "skills": ["HTML", "CSS", "JavaScript","React", "Express", "Node"],
+    "demo": "https://rajsoni06.github.io/Universe_Cosmos/Universe/index.html",
+    "source": "https://github.com/rajsoni06/Space_X_Website/tree/master/Space_X"
+  },
+  {
+    "title": "SpaceX Simulation",
+    "imageSrc": "projects/SpaceX.gif",
+    "description": "The SpaceX Simulation is a dynamic web app replicating SpaceX’s site with interactive features, responsive design, and modern frontend tech.",
+    "skills": ["MySQL", "JavaScript", "React", "Express", "Node"],
+    "demo": "https://rajsoni06.github.io/Space_X_Website/Space_X/index.html",
+    "source": "https://github.com/rajsoni06/Space_X_Website/tree/master/Space_X"
+  },
+  {
+    "title": "Video Chat Application",
+    "imageSrc": "projects/videochat4.gif",
+    "description": "This video chat application enables live video conversations, user authentication, and data management, providing a secure and interactive communication platform.",
+    "skills": ["WebRTC", "Socket.IO", "OAuth", "JWT", "MERN Stack", "PostgreSQL"],
+    "demo": "https://chat-app-jsm-video.netlify.app/",
+    "source": " "
+  },
+  {
+    "title": "Shortify",
+    "imageSrc": "projects/URL_shortener.gif",
+    "description": "Shortify is a user-friendly web app for URL shortening with analytics and a user dashboard. Built with the MERN stack, it includes authentication, MongoDB storage, and a responsive design.",
+    "skills": ["MERN Stack","Mongoose","Tailwind"],
+    "demo": "https://github.com/rajsoni06/SHORTIFY/assets/113697967/ac1a682e-c003-4916-8ba1-1732e38be81f",
+    "source": "https://github.com/rajsoni06/SHORTIFY"
+  }  
+]

@@ -1,0 +1,188 @@
+.contactButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  background: linear-gradient(135deg, #2abbdb, #5abcdc); /* Bluish gradient */
+  color: white;
+  border-radius: 100px;
+  font-size: 20px; /* Reduced font size */
+  font-weight: 600;
+  padding: 10px 20px; /* Adjusted padding */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background 0.3s, transform 0.3s;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.contactButton:hover {
+  background: linear-gradient(135deg, #96d6ec, #00b4db); /* Inverse gradient on hover */
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(101, 92, 92, 0.3);
+}
+
+.container {
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text inside the div */
+  color: var(--color-text);
+  margin-top: 120px;
+  background: linear-gradient(135deg, rgba(58,141,255,1) 0%, rgba(134,185,255,1) 20%, rgba(58,141,255,0.8) 60%, rgba(240, 145, 145, 0.9) 100%), /* Gradient layers */
+              linear-gradient(45deg, rgb(236, 171, 92) 0%, rgba(241, 241, 240, 0.8) 50%, rgba(134, 184, 230, 0.3) 100%); /* Second gradient for depth effect */
+  background-blend-mode: multiply, overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for 3D effect */
+}
+
+
+.text h2 {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 14px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 18px; /* Consistent gap between icon (GIF) and text */
+}
+
+.link img {
+  width: 40px; /* Ensures all icons (GIFs) have a consistent size */
+  height: 40px;
+  flex-shrink: 0; /* Prevents the icons from shrinking */
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px; /* Default font size */
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  flex-grow: 1; /* Ensures the text takes up the available space */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 830px) {
+  .links {
+    align-items: center;
+  }
+
+  .link {
+    flex-direction: row; /* Ensure row layout for mobile */
+    justify-content: space-between; /* Space between icon and text */
+    gap: 12px; /* Slightly reduced gap between icon and text */
+    width: 100%; /* Make link take up full width */
+  }
+  
+  .link img {
+    width: 32px; /* Smaller icon size for mobile */
+    height: 32px;
+  }
+
+  .link a {
+    font-size: 18px; /* Smaller font size for mobile */
+    text-align: center; /* Center text on mobile */
+  }
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 40px;
+  border-top: 1px solid var(--color-text-light); /* Optional border for separation */
+  padding: 17px 80px;
+  background: linear-gradient(135deg, rgba(23, 17, 17, 0.7), rgba(50, 50, 50, 0.8), rgba(23, 17, 17, 0.7), rgba(23, 17, 17, 0.564));
+  background: linear-gradient(135deg, rgba(23, 17, 17, 0.7) 20%, rgba(50, 50, 50, 0.8) 40%, rgba(255, 255, 255, 0.3) 50%, rgba(50, 50, 50, 0.8) 60%, rgba(23, 17, 17, 0.7) 80%);
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.madeWithLove {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-text);
+  text-align: center;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 830px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%; /* Reduce the container width on mobile */
+    padding: 1px; /* Adjust padding for a smaller look */
+    margin: 0 auto; /* Center the container */
+  }
+
+  .contactButton {
+    font-size: 16px; /* Smaller font size for mobile */
+    padding: 6px 13px; /* Reduced padding */
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+
+
+  .copyright {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--color-text);
+  }
+  
+  .madeWithLove {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--color-text);
+    text-align: center;
+  }
+
+  .madeWithLove {
+    text-align: center;
+  }
+}

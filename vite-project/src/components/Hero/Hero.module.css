@@ -1,0 +1,324 @@
+@import "../../vars.css";
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero Container styling */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-wrap: wrap;
+  background: linear-gradient(
+      135deg,
+      rgba(58, 141, 255, 1) 0%,
+      rgba(134, 185, 255, 1) 20%,
+      rgba(58, 141, 255, 0.8) 60%,
+      rgba(249, 141, 141, 0.9) 100%
+    ),
+    linear-gradient(
+      45deg,
+      rgb(250, 181, 97) 0%,
+      rgba(241, 241, 240, 0.8) 50%,
+      rgba(134, 184, 230, 0.3) 100%
+    );
+  background-blend-mode: multiply, overlay;
+}
+
+.container > * {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  color: #fff;
+  margin-top: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.description {
+  color: #ddd;
+  margin-top: 20px;
+  max-width: 800px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1;
+  max-width: 60%;
+}
+
+.title {
+  font-size: clamp(24px, 5vw, 30px);
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.15em;
+}
+
+@keyframes blink {
+  from,
+  to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: var(--color-text);
+  }
+}
+
+.description {
+  font-size: 22px;
+  font-family: var(--font-roboto);
+  margin-bottom: 52px;
+  color: white;
+  text-align: justify;
+}
+
+.heroImg {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+  flex-shrink: 0;
+  margin-left: 20px;
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.connectBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  background: linear-gradient(135deg, #0D7BCC, #0A66C2, #0958A9);
+  color: white;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 22px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.327);
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.connectBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+
+.hackathonButton {
+  display: flex;
+  margin-top: 20px;
+  padding: 12px 40px;
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+  transition: background 0.9s, transform 0.9s;
+}
+
+.hackathonButton:hover {
+  background: linear-gradient(135deg, #0056b3, #00aaff);
+  transform: scale(1.05);
+}
+
+.topBlur,
+.bottomBlur {
+  position: absolute;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.topBlur {
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+}
+
+.bottomBlur {
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px; /* 20px gap from both left and right sides */
+  }
+
+  .content {
+    align-items: center;
+    margin-top: 20px;
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 24px;
+    max-width: 100%;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .heroImg {
+    width: 100%;
+    max-width: 250px;
+    margin: 50px auto 20px auto;
+    display: block;
+  }
+
+  .connectBtn {
+    font-size: 22px;
+    padding: 11px 19px;
+  }
+
+
+  .hackathonButton {
+    display: flex;
+    margin-top: 30px;
+    padding: 12px 35px;
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background 0.9s, transform 0.9s;
+  }
+  
+  .hackathonButton:hover {
+    background: linear-gradient(135deg, #0056b3, #00aaff);
+    transform: scale(1.05);
+  }
+}
+
+/* Extra small screens adjustments */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 20px; /* Consistent 20px gap from both left and right sides */
+    text-align: center; /* Ensure content is centered */
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    max-width: 100%; /* Allow content to use the full width available */
+  }
+
+  .heroImg {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto; /* Center the image horizontally */
+    display: block; /* Ensure image stays centered */
+  }
+
+  .title {
+    font-size: 22px; /* Adjust font size for smaller screens */
+    margin-top: 10px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-top: 10px;
+   
+  }
+
+  .connectBtn {
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+
+
+
+}

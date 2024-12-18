@@ -1,0 +1,13 @@
+:root {
+    /* Colours */
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --background: linear-gradient(135deg, rgba(23, 17, 17, 0.7), rgba(50, 50, 50, 0.8), rgba(23, 17, 17, 0.7), rgba(23, 17, 17, 0.564));
+    --background: linear-gradient(135deg, rgba(23, 17, 17, 0.7) 20%, rgba(50, 50, 50, 0.8) 40%, rgba(255, 255, 255, 0.3) 50%, rgba(50, 50, 50, 0.8) 60%, rgba(23, 17, 17, 0.7) 80%);
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+  
+    /* Fonts */
+    --font-roboto: "Roboto";
+  }

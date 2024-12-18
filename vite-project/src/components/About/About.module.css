@@ -1,0 +1,241 @@
+@import "../../vars.css";
+
+
+
+/* About.module.css */
+
+.container {
+  position: relative;
+  padding: 60px 10%;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../assets/about/Broken_Glass.gif') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Optional overlay */
+  z-index: 1;
+}
+
+.title {
+  position: relative;
+  z-index: 3; /* Ensure the title is above the overlay */
+  font-size: 36px;
+  color: #f2f2f2; /* Set a solid light color */
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: rgb(209, 47, 47);
+}
+
+.aboutImage {
+  width: 300px;
+  height: auto;
+}
+
+.aboutItems {
+  list-style: none;
+  padding: 0;
+}
+
+.aboutItem {
+  margin-bottom: 20px;
+}
+
+.aboutItemText h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.aboutItemText p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+.title {
+  color: var(--color-text);
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutImage {
+  width: 35%;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 25px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: rgba(12, 12, 12, 0.6); /* Maintain background but adjust as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    width: 100%; /* Image takes full width on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .aboutItems {
+    gap: 20px; /* Reduce gap between items */
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align text to the left */
+    padding: 20px;
+  }
+
+  .aboutItem h3 {
+    font-size: 22px; /* Adjust font size for smaller screens */
+  }
+
+  .aboutItem p {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .title {
+    font-size: 28px; /* Smaller title font size on mobile */
+  }
+}
+
+/* GIF styles (if used separately) */
+.homeGif {
+  width: 100%;
+  height: auto;
+  margin-top: 15px; /* Add margin to separate GIF from other content */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent; /* No background image on smaller screens */
+    padding: 20px; /* Adjust padding */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none; /* Hide image on smaller screens */
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Adjust GIF size for mobile */
+  .homeGif {
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+/* For the title */
+.title {
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+
+

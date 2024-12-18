@@ -1,0 +1,134 @@
+@import "../../vars.css";
+
+.certificationSection {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 600px; /* Fixed width */
+  margin: 50px auto; /* Centered on the page */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 3D shadow effect */
+  perspective: 1000px; /* Perspective for 3D effect */
+
+}
+
+.certificationSection h2 {
+  font-size: 29px;
+  margin-bottom: 10px;
+  text-align: center; /* Center the title */
+  
+}
+
+.certificationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificationItem {
+  transform: perspective(1000px) rotateY(0deg); /* Initial 3D position */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d; /* Ensures child elements are 3D */
+  margin-bottom: 8px; /* Add an 8px gap between sections */
+}
+
+.certificationItem:last-child {
+  margin-bottom: 0; /* Remove bottom margin from the last item */
+}
+
+.certificationSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificationLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0073e6;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #e0f7fa, #fbe7ff, #ffecb3); /* Light 3D gradient */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.certificationLink:hover {
+  font-weight: bold;
+  transform: translateY(-5px) scale(1.05); /* Slight lift and scale on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  background: linear-gradient(145deg, #fbe7ff, #ffecb3, #e0f7fa); /* Gradient shift on hover */
+}
+
+/* Achievements Section */
+.AchievementsItem {
+  list-style: none;
+}
+
+.AchievementsLink {
+  display: inline-block;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(145deg, #6a11cb, #2575fc, #43e97b); /* Multi-layer 3D gradient */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 -3px 10px rgba(0, 0, 0, 0.15); /* Adding depth */
+}
+
+.AchievementsLink:hover {
+  transform: scale(1.1) translateY(-5px); /* Zoom and lift effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4), inset 0 -5px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  background: linear-gradient(145deg, #2575fc, #43e97b, #6a11cb); /* Gradient shift on hover */
+}
+
+@media screen and (max-width: 830px) {
+  .certificationSection {
+    max-width: 90%; /* Adapt the width for smaller screens */
+    margin: 40px auto;
+    
+  }
+
+
+  .certificationSection h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the title */
+  }
+
+  .certificationLink {
+    font-size: 16px;
+    padding: 8px 16px;
+    font-weight: bold;
+  }
+
+  .AchievementsLink {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .certificationSection {
+    max-width: 95%;
+    margin: 30px auto;
+    padding: 15px;
+  }
+
+  .certificationSection h2 {
+    font-size: 20px;
+  }
+
+  .certificationLink {
+    font-size: 14px;
+    padding: 6px 14px;
+    font-weight: bold;
+  }
+
+  .AchievementsLink {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
