@@ -64,7 +64,7 @@ This project is built using the following technologies:
 
 ## **📨 Contact Me**
 📞 **Phone:** +91 8009312017  
-📧 **Email:** rajsoni06@gmail.com  
+📧 **Email:** sonirajanand677@gmail.com  
 🔗 **Portfolio:** [Visit Here](https://raj-anand-portfolio.netlify.app/)  
 💼 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/raj-anand-soni-037541212/)  
 👨‍💻 **GitHub:** [GitHub Profile](https://github.com/rajsoni06)  
