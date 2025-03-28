@@ -1,8 +1,6 @@
 ### **🚀 Portfolio Website using React**
 Welcome to my **personal portfolio website**! Built with **React.js**, this portfolio serves as a digital space where I showcase my **projects, skills, certifications, and professional experience**. The goal is to provide a **visually appealing, user-friendly, and interactive experience** for visitors.
 
-Explore the source code, set it up locally, or use it for inspiration!  
-
 ![image](https://github.com/user-attachments/assets/b794291e-ed80-483b-a90f-0714d8e6b63f)
 ---
 
