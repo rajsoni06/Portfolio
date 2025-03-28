@@ -7,7 +7,7 @@ Welcome to my **personal portfolio website**! Built with **React.js**, this port
 ## **📋 Features**
 ✅ **Modern & Interactive UI** – Built with **React.js & Tailwind CSS** for a **sleek, responsive, and dynamic user experience**  
 ✅ **Fully Responsive Design** – Optimized for **mobile, tablet, and desktop**  
-✅ **Showcase of Skills & Experience** – **Detailed sections for work history, technical skills, certifications, and achievements**  
+✅ **Skills & Experience** – **Detailed sections for work history, technical skills, certifications, and achievements**  
 ✅ **Project Highlights** – **Interactive project showcase with live demo & source code links**  
 ✅ **Dynamic Animations & Effects** – **Smooth transitions, scroll effects, and hover animations**  
 ✅ **Modular & Reusable Components** – **Optimized React component structure for scalability**  
