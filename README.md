@@ -53,14 +53,6 @@ This project is built using the following technologies:
 - **Programming Languages:** Python, C++, Java, JavaScript, TypeScript  
 - **Tools & Technologies:** Git, GraphQL, CI/CD, Agile, Selenium  
 
-### **🔹 Featured Projects**
-| Project Name | Tech Stack | Description | Demo | Source Code |
-|-------------|-----------|-------------|------|-------------|
-| **Ping Connect** | MERN Stack | Social media platform with **authentication, user feeds, and profile customization** | [Live Demo](#) | [GitHub](#) |
-| **Nihongo Journey** | MERN Stack | Website featuring **Japanese language learning & tourist attractions** | [Live Demo](#) | [GitHub](#) |
-| **Universe Cosmos** | MERN Stack | A website exploring **space news, simulators, and cosmic research** | [Live Demo](#) | [GitHub](#) |
-| **Travel Website** | MERN Stack | An engaging travel site with **news, blogs, destinations, and trip planning** | [Live Demo](#) | [GitHub](#) |
-
 ---
 
 ## **🏆 Certifications & Achievements**
@@ -75,39 +67,10 @@ This project is built using the following technologies:
 ## **📨 Contact Me**
 📞 **Phone:** +91 8009312017  
 📧 **Email:** rajsoni06@gmail.com  
-🔗 **Portfolio:** [Visit Here](https://rajsoni06.github.io/Portfolio)  
-💼 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/rajsoni06/)  
+🔗 **Portfolio:** [Visit Here](https://raj-anand-portfolio.netlify.app/)  
+💼 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/raj-anand-soni-037541212/)  
 👨‍💻 **GitHub:** [GitHub Profile](https://github.com/rajsoni06)  
-🐦 **Twitter:** [@RajSoni06](https://twitter.com/rajsoni06)  
-
----
-
-## **🚀 Getting Started (Run Locally)**
-To run this project on your local machine, follow these steps:  
-
-### **1️⃣ Clone the Repository**
-```sh
-git clone https://github.com/rajsoni06/Portfolio.git
-cd Portfolio
-```
-
-### **2️⃣ Install Dependencies**
-```sh
-npm install
-```
-
-### **3️⃣ Start the Development Server**
-```sh
-npm run dev
-```
-✅ Open your browser and visit: **`http://localhost:5173/`**  
-
----
-
-## **📌 Contributing**
-Want to contribute to this project? **Fork the repository, create a branch, make changes, and submit a pull request!** 🚀  
-
-📌 **Star the repository if you find it useful!** ⭐  
+🐦 **Twitter:** [@RajSoni06](https://x.com/LuckySonicosmos?t=iSMyycj4wQEjl4s98sHHnQ&s=09)  
 
 ---
 
@@ -123,11 +86,3 @@ This portfolio is a **continuous work in progress**, and I'm always adding new f
 - Implement **Dark Mode**  
 - Improve **Animations & UI Interactions**  
 - Add **More Blog & Project Sections**  
-
----
-
-### **✅ How to Update Your README on GitHub**
-1. Open your repository: **https://github.com/rajsoni06/Portfolio.git**  
-2. Click **"Edit" (pencil icon)** next to `README.md`  
-3. **Copy & paste the above content** into `README.md`  
-4. Click **"Commit changes"**  
