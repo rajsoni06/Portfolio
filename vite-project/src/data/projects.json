@@ -12,7 +12,7 @@
     "imageSrc": "projects/Japan_website.gif",
     "description": "Designed a website on Japan, featuring Japanese language learning and tourist attractions, delivering an immersive user experience for cultural information and exploration.",
     "skills": ["MongoDB", "React", "Express", "Node", "HTML", "CSS", "JavaScript"],
-    "demo": "https://rajsoni06.github.io/Nihongo_Journey/Nihongo-Journey.html",
+    "demo": "https://nihongo-journey.netlify.app/",
     "source": "https://github.com/rajsoni06/Nihongo_Journey"
   },
   {

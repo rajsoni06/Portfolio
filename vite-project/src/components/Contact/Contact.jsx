@@ -74,7 +74,7 @@ export const Contact = () => {
       </ul>
       <div className={styles.footerBottom}>
         <div className={styles.copyright}>
-          <p>All rights reserved © 2024</p>
+          <p>All rights reserved © 2025</p>
         </div>
         <div className={styles.madeWithLove}>
           <p>Made with ❤ by Raj Anand Soni</p>

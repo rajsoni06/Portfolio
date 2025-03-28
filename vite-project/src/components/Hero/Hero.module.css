@@ -41,10 +41,10 @@
   flex-wrap: wrap;
   background: linear-gradient(
       135deg,
-      rgba(58, 141, 255, 1) 0%,
-      rgba(134, 185, 255, 1) 20%,
-      rgba(58, 141, 255, 0.8) 60%,
-      rgba(249, 141, 141, 0.9) 100%
+      rgb(98, 163, 255) 0%,
+      rgb(141, 188, 255) 20%,
+      rgba(88, 158, 255, 0.8) 60%,
+      rgb(255, 168, 167) 100%
     ),
     linear-gradient(
       45deg,
@@ -130,15 +130,33 @@
   text-align: justify;
 }
 
+/* Default styles for larger screens */
 .heroImg {
-  width: 270px;
-  height: 270px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   z-index: 1;
   flex-shrink: 0;
   margin-left: 20px;
   animation: floating 3s ease-in-out infinite;
+  background: linear-gradient(160deg, #00FFFF, #FF00FF); /* Cyan to magenta gradient */
+  padding: 2px; /* Creates the gradient border effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 20px rgba(0, 255, 255, 0.5); /* Cyan 3D glow */
+}
+
+/* Media query for smartphone screens (up to 1000px) */
+@media (max-width: 1000px) {
+  .heroImg {
+    width: min(80vw, 120px); /* Responsive width, max 300px */
+    height: min(80vw, 120px); /* Matches width for circular shape */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Allows centering with margin */
+    margin-top: 35px; /* Spacing from the title */
+  }
 }
 
 @keyframes floating {
@@ -245,19 +263,12 @@
   }
 
   .description {
-    font-size: 16px;
-  }
-
-  .heroImg {
-    width: 100%;
-    max-width: 250px;
-    margin: 50px auto 20px auto;
-    display: block;
+    font-size: 18px;
   }
 
   .connectBtn {
     font-size: 22px;
-    padding: 11px 19px;
+    padding: 12px 19px;
   }
 
 
@@ -294,13 +305,6 @@
     color: white;
     margin-top: 20px;
     max-width: 100%; /* Allow content to use the full width available */
-  }
-
-  .heroImg {
-    width: 150px;
-    height: 150px;
-    margin: 20px auto; /* Center the image horizontally */
-    display: block; /* Ensure image stays centered */
   }
 
   .title {
